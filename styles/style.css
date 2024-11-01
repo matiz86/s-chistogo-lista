@@ -1,0 +1,273 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #131313;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.content-section {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header {
+  padding: 24px 20px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  background: #131313;
+}
+
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.header__menu-link {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #f5f5f5;
+}
+
+.header__menu-link--current {
+  text-decoration: none;
+}
+
+.cover {
+  margin-bottom: 34px;
+  min-height: 198px;
+  background-image: url('../images/cover.svg');
+  background-repeat: no-repeat;
+  background-size: 94% auto;
+  background-position: bottom right;
+  padding: 0 20px;
+}
+
+.accent-span {
+  display: block;
+  font-family: 'EB Garamond', Arial,
+    sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+  color: #fff;
+}
+
+.intro {
+  padding: 0 20px 38px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.intro__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ccc;
+}
+
+.intro__date {
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ccc;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.intro__main-descr {
+  font-size: 16px;
+  line-height: 1.35;
+  color: #f5f5f5;
+}
+
+.reasons {
+  background-color: #fee42a;
+  padding: 40px 20px;
+}
+
+.reasons__title {
+  margin-bottom: 32px;
+  font-family: 'EB Garamond', Arial,
+    sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.15;
+  color: #131313;
+}
+
+.reasons__accent-span {
+  display: block;
+}
+
+.reasons__descr {
+  margin-bottom: 32px;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #131313;
+}
+
+.reasons__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.reasons__list-item {
+  margin-left: 16px;
+}
+
+.reasons__list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #131313;
+}
+
+.reasons__list-accent {
+  font-weight: 700;
+}
+
+.how-to {
+  padding: 40px 20px 58px;
+}
+
+.how-to__title {
+  margin-bottom: 32px;
+  font-family: 'EB Garamond', Arial,
+    sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.15;
+  color: #f5f5f5;
+}
+
+.how-to__accent-span {
+  display: block;
+}
+
+.how-to__descr {
+  margin-bottom: 32px;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #f5f5f5;
+}
+
+.how-to__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card-bright {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card-yellow {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card__author-photo-img {
+  display: block;
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card__author-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.card__title {
+  margin-bottom: 8px;
+  font-family: 'EB Garamond', Arial,
+    sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.35;
+  color: #f5f5f5;
+}
+
+.card__title-yellow {
+  color: #131313;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #f5f5f5;
+}
+
+.card__text-yellow {
+  color: #131313;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fee42a;
+}
+
+.footer__links-list {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.footer__links-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #f5f5f5;
+  text-decoration: none;
+}
